@@ -1,6 +1,6 @@
 import React from 'react';
 
 export default function Fotos() {
-    return <h1>o quiza abririas esta? TE AMO</h1>;
+    return <h1>fotos</h1>;
   }
   
