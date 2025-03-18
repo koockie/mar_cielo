@@ -19,10 +19,10 @@ export default function Home() {
         <div className="modal-overlay">
           <div className="modal">
             <h2>Elige una opción de reserva</h2>
-            <button className="btn-wsp" onClick={() => window.open('https://wa.me/569XXXXXXXX', '_blank')}>
+            <button className="btn-wsp" onClick={() => window.open('https://wa.me/56987184573', '_blank')}>
               Contactar por WhatsApp
             </button>
-            <button className="btn-airbnb" onClick={() => window.open('https://www.airbnb.com/users/show/XXXXXXXX', '_blank')}>
+            <button className="btn-airbnb" onClick={() => window.open('https://es-l.airbnb.com/rooms/1050935137395611182?guests=1&adults=1&s=67&unique_share_id=f30ae318-248b-49a6-a54e-094a62c4178a', '_blank')}>
               Reservar en Airbnb
             </button>
             <button className="btn-cerrar" onClick={() => setModalOpen(false)}>Cerrar</button>
